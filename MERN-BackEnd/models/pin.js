@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 
-const instrumentSchema = new mongoose.Schema({
+const pinSchema = new mongoose.Schema({
     type: {
         type: String,
         required: true,
-        enum: ['guitar', 'mayonnaise', 'drums', 'bass', 'piano']
+        enum: ['']
     },
     brand: {
         type: String,
@@ -25,4 +25,4 @@ const instrumentSchema = new mongoose.Schema({
     timestamps: true
 })
 
-module.exports = mongoose.model('Instrument', instrumentSchema)
+module.exports = mongoose.model('pin', pinSchema)

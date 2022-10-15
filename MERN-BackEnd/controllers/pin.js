@@ -1,32 +1,32 @@
 const router = require('express').Router()
-const Instrument = require('../models/instruments')
+const pin = require('../models/pin')
 const User = require('../models/user')
 
 router.get('/', async (req, res) => {
     try {
-        let instruments = await Instrument.find()
-        res.send(instruments)
+        let pin = await pin.find()
+        res.send(pin)
     } catch (error) {
         console.log(error)
-        res.status(500).json({ 'message': 'unable to retreive instruments' })
+        res.status(500).json({ 'message': 'unable to retreive pin' })
     }
 })
 
 router.post('/', async (req, res) => {
     try {
-        const instrument = await new Instrument({
+        const pin = await new pin({
             ...req.body
         }).save()
         
         const existingUser = await User.findById(req.body.user)
-        existingUser.instruments.push(instrument._id)
+        existingUser.pin.push(pin._id)
         let updatedUser = await User.findByIdAndUpdate(req.body.user, existingUser)
 
     
-        res.send(instrument)
+        res.send(pin)
     } catch (error) {
         console.log(error)
-        res.status(500).json({ 'message': 'unable to save instrument' })
+        res.status(500).json({ 'message': 'unable to save pin' })
     }
 })
 
