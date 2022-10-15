@@ -14,10 +14,10 @@ const userSchema = new mongoose.Schema({
     age: {
         type: Number,
     },
-    instruments: [
+    pins: [
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Instrument'
+            ref: 'pin'
         }
     ]
 }, {
