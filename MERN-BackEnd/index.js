@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const userRoutes = require('./controllers/user')
-const intrumentRoutes = require('./controllers/instrument')
+const pinRoutes = require('./controllers/pin')
 require('dotenv').config()
 
 const app = express()
@@ -11,7 +11,7 @@ app.use(express.json())
 
 // routes
 app.use('/user', userRoutes)
-app.use('/instrument', intrumentRoutes)
+app.use('/pin', pinRoutes)
 
 // db connection
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -21,3 +21,4 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+console.log('Backend server is running')
