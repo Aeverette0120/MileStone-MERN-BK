@@ -4,7 +4,7 @@ const pinSchema = new mongoose.Schema({
     type: {
         type: String,
         required: true,
-        enum: ['guitar', 'mayonnaise', 'drums', 'bass', 'piano']
+        enum: ['']
     },
     brand: {
         type: String,
