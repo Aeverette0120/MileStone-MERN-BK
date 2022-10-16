@@ -47,11 +47,10 @@ router.delete('/:id', async (req, res) => {
 
 router.post('/create', async (req, res) => {
     try {
-        const { username, password, age, name } = req.body
+        const { username,  age, name } = req.body
         console.log(username, password)
         const createdUser = await new User({
             username,
-            password,
             age,
             name
         }).save()
