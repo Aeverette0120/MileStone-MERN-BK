@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const userRoutes = require('./controllers/user')
-const intrumentRoutes = require('./controllers/instrument')
+const pinRoutes = require('./controllers/pin')
 require('dotenv').config()
 
 const app = express()
