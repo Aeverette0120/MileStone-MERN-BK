@@ -1,24 +1,28 @@
 const mongoose = require('mongoose')
 
 const pinSchema = new mongoose.Schema({
-    type: {
+    username: {
         type: String,
         required: true,
-        enum: ['guitar', 'mayonnaise', 'drums', 'bass', 'piano']
+        min: 3,
     },
-    brand: {
+    desc: {
         type: String,
-        required: true
+        required: true,
+        min: 3,
     },
-    model: {
-        type: String
+    rating: {
+        type: Number,
+        require: true,
+        min: 0,
+        max: 5
+        },
+    lat: {
+        type: Number,
+        require: true,
     },
-    price: {
-        type: Number
-    },
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
+    long: {
+        type: Number,
         required: true
     }
 }, {
