@@ -4,7 +4,7 @@ One Paragraph of the project description
 
 
 ## Getting Started
-
+## Screenshot of site 
 ## Deployment
 
 Heroku: 
