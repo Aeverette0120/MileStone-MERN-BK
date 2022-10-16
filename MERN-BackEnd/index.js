@@ -1,6 +1,5 @@
 const express = require('express')
 const mongoose = require('mongoose')
-// const userRoutes = require('./controllers/user')
 const pinRoutes = require('./routes/pin')
 
 require('dotenv').config()
@@ -11,7 +10,7 @@ const app = express()
 app.use(express.json())
 
 // routes
-// app.use('/user', userRoutes)
+
 app.use('/pin', pinRoutes)
 
 // db connection
