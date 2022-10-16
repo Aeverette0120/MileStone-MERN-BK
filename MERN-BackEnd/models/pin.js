@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const instrumentSchema = new mongoose.Schema({
+const pinSchema = new mongoose.Schema({
     type: {
         type: String,
         required: true,
@@ -25,4 +25,4 @@ const instrumentSchema = new mongoose.Schema({
     timestamps: true
 })
 
-module.exports = mongoose.model('Instrument', instrumentSchema)
+module.exports = mongoose.model('pin', pinSchema)

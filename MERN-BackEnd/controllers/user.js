@@ -1,10 +1,10 @@
 const router = require('express').Router()
 const User = require('../models/user')
-const Instrument = require('../models/instruments')
+const pin = require('../models/pin')
 
 router.get('/', async (req, res) => {
     try {
-        const users = await User.find().populate('instruments')
+        const users = await User.find().populate('pins')
 
         res.json(users)
     } catch (error) {
@@ -47,11 +47,10 @@ router.delete('/:id', async (req, res) => {
 
 router.post('/create', async (req, res) => {
     try {
-        const { username, password, age, name } = req.body
+        const { username,  age, name } = req.body
         console.log(username, password)
         const createdUser = await new User({
             username,
-            password,
             age,
             name
         }).save()
@@ -62,18 +61,18 @@ router.post('/create', async (req, res) => {
     }
 })
 
-router.put('/add/instrument/:id', async(req, res) => {
+router.put('/add/pin/:id', async(req, res) => {
     try {
-        const { instrumentId } = req.body
+        const { pinId } = req.body
         const { id } = req.params 
 
         const user = await User.findById(id)
-        user.instruments.push(instrumentId)
+        user.pins.push(pinId)
         let updatedUser = await User.findByIdAndUpdate(id, user)
 
         res.send(updatedUser)
     } catch (error) {
-        res.status(500).json({ 'message': 'unable to add instrument' })
+        res.status(500).json({ 'message': 'unable to add pin' })
     }
 })
 
