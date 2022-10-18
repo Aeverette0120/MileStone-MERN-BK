@@ -11,9 +11,12 @@ Heroku:
 
 ## Authors
 
-  - **Aaron Evertte** 
-  - **Christian Salinas**
+  - **Aaron Evertte**:
+  https://github.com/Aeverette0120
+  - **Christian Salinas**:
+  https://github.com/Csalinas1009
   - **Giovanni Peres**:
   https://github.com/Gioperes
-  - **Ian Aberbach**
+  - **Ian Aberbach**:
+  https://github.com/ianaberbach
 
