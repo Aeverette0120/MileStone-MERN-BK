@@ -12,5 +12,7 @@ Heroku:
 ## Authors
 
   - **Aaron Evertte** 
+  - **Christian Salinas**
   - **Giovanni Peres**
+  - **Ian Aberbach**
 
