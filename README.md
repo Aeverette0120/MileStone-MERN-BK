@@ -13,7 +13,7 @@ Heroku:
 
   - **Aaron Evertte** 
   - **Christian Salinas**
-  - **Giovanni Peres**
+  - **Giovanni Peres**:
   https://github.com/Gioperes
   - **Ian Aberbach**
 
