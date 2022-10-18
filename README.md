@@ -7,7 +7,7 @@ One Paragraph of the project description
 ## Screenshot of site 
 ## Deployment
 
-Heroku: 
+Heroku: https://git.heroku.com/milestone-mern.git
 
 ## Authors
 
