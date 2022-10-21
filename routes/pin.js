@@ -18,7 +18,7 @@ router.post("/", async (req,res)=>{
 
 router.get("/:id", async (req,res)=>{
     try{
-        const pin = await Pin.findById();
+        const pin = await Pin.findOne( { _id: req.params.id } );
         res.status(200).json(pin);
     }catch(err){
         console.log(err)
@@ -43,7 +43,7 @@ router.get("/", async (req,res)=>{
 
 router.delete("/:id", async (req,res)=>{
     try{
-        const pin = await Pin.findOneAndDelete();
+        const pin = await Pin.findOneAndDelete({ _id: req.params.id });
         res.status(200).json(pin);
     }catch(err){
         console.log(err)
@@ -55,7 +55,7 @@ router.delete("/:id", async (req,res)=>{
 
 router.patch("/:id", async (req,res)=>{
     try{
-        const pin = await Pin.findByIdAndUpdate();
+        const pin = await Pin.findByIdAndUpdate( req.params.id, req.body);
         res.status(200).json(pin);
     }catch(err){
         console.log(err)
