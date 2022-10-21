@@ -1,10 +1,10 @@
 # MileStone-MERN-BK
 
-Welcome to our travel app! This is a great place to add your travel stories adn photos! 
+Welcome to our travel app! This is a great place to add your travel stories and photos! 
 
 
 ## Getting Started
-Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your image URL!
+Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your an image URL!
 ## Screenshot of site 
 ## Deployment
 
