@@ -8,7 +8,7 @@ const pinSchema = new mongoose.Schema({
         require: true,
     },
     imgURL: {
-        Type: String,
+        contentType: String,
     },
     description: {
         type: String,
