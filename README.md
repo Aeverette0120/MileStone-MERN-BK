@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
-# MileStone-Porject 2
-
-Welcome to our travel app! This is a great place to add your travel stories and photos! 
-=======
-# MileStone-MERN-FrontEnd
+# MileStone-MERN-BackEnd
 >>>>>>> Stashed changes
 
 Welcome to Travelr! This is the front-end section of our application, if you would to see our backend please visit (https://github.com/Aeverette0120/MileStone-MERN-BK)
