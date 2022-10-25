@@ -32,11 +32,6 @@ You may also see any lint errors in the console.
         Heroku
 
 ## Deployment
-Front-End
-Heroku: https://milestone-travelr.herokuapp.com/
-
-
-Heroku: 
 https://milestone-mern.herokuapp.com/pin (backend)
 https://milestone-travelr.herokuapp.com (frontend)
 =======
@@ -56,11 +51,6 @@ Take a look and feel free to add, edit, or delete your own personal travel blogs
 
 
 =======
-## Screenshot of site 
-## Deployment
-Back-End
-Heroku: https://milestone-mern.herokuapp.com/pin
-
 
 
 ## Preview
