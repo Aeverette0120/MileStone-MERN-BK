@@ -1,6 +1,6 @@
 # MileStone-MERN-BackEnd
 
-Welcome to Travelr! This is the front-end section of our application, if you would to see our backend please visit (https://github.com/Aeverette0120/MileStone-MERN-BK)
+Welcome to Travelr! This is the back-end section of our application, if you would to see our frontend please visit (https://github.com/Csalinas1009/milestone-project-2)
 
 ## Getting Started
 
@@ -36,6 +36,12 @@ Front-End
 Heroku: https://milestone-travelr.herokuapp.com/
 
 
+Heroku: 
+https://milestone-mern.herokuapp.com/pin (backend)
+https://milestone-travelr.herokuapp.com (frontend)
+=======
+
+
 ### Front-End Contributors
 
     Christian Salinas: https://github.com/Csalinas1009
@@ -47,10 +53,14 @@ Heroku: https://milestone-travelr.herokuapp.com/
     Giovanni Peres: https://github.com/Gioperes
 =======
 Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your an image URL!
+
+
+=======
 ## Screenshot of site 
 ## Deployment
 Back-End
 Heroku: https://milestone-mern.herokuapp.com/pin
+
 
 
 ## Preview
