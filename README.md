@@ -16,7 +16,7 @@ This will install any necessary dependencies for this project to run properly
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -32,8 +32,9 @@ You may also see any lint errors in the console.
         Heroku
 
 ## Deployment
+Front-End
+Heroku: https://milestone-travelr.herokuapp.com/
 
-Heroku: https://milestone-mern.herokuapp.com
 
 ### Front-End Contributors
 
@@ -48,8 +49,8 @@ Heroku: https://milestone-mern.herokuapp.com
 Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your an image URL!
 ## Screenshot of site 
 ## Deployment
-
-Heroku: https://milestone-mern.herokuapp.com
+Back-End
+Heroku: https://milestone-mern.herokuapp.com/pin
 
 
 ## Preview
