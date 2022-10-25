@@ -49,7 +49,6 @@ Heroku: https://milestone-mern.herokuapp.com
 ### Back-end Contributors
     Aaron Everette: https://github.com/Aeverette0120
     Giovanni Peres: https://github.com/Gioperes
->>>>>>> Stashed changes
 
 
 ## Preview
