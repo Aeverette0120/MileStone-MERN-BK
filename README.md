@@ -32,8 +32,8 @@ You may also see any lint errors in the console.
         Heroku
 
 ## Deployment
-https://milestone-mern.herokuapp.com/pin (backend)
-https://milestone-travelr.herokuapp.com (frontend)
+        https://milestone-mern.herokuapp.com/pin (backend)
+        https://milestone-travelr.herokuapp.com (frontend)
 =======
 
 
