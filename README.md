@@ -1,4 +1,4 @@
-# MileStone-MERN-BK
+# MileStone-Porject 2
 
 Welcome to our travel app! This is a great place to add your travel stories and photos! 
 
