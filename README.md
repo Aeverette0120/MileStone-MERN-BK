@@ -32,10 +32,15 @@ You may also see any lint errors in the console.
         Heroku
 
 ## Deployment
+Front-End
+Heroku: https://milestone-travelr.herokuapp.com/
+
 
 Heroku: 
 https://milestone-mern.herokuapp.com/pin (backend)
 https://milestone-travelr.herokuapp.com (frontend)
+=======
+
 
 ### Front-End Contributors
 
@@ -48,6 +53,13 @@ https://milestone-travelr.herokuapp.com (frontend)
     Giovanni Peres: https://github.com/Gioperes
 =======
 Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your an image URL!
+
+
+=======
+## Screenshot of site 
+## Deployment
+Back-End
+Heroku: https://milestone-mern.herokuapp.com/pin
 
 
 
