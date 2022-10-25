@@ -1,21 +1,8 @@
-<<<<<<< Updated upstream
-# MileStone-Porject 2
-
-Welcome to our travel app! This is a great place to add your travel stories and photos! 
-=======
 # MileStone-MERN-FrontEnd
->>>>>>> Stashed changes
 
 Welcome to Travelr! This is the front-end section of our application, if you would to see our backend please visit (https://github.com/Aeverette0120/MileStone-MERN-BK)
 
 ## Getting Started
-<<<<<<< Updated upstream
-Take a look and feel free to add, edit, or delete your own personal travel blogs. Make sure to add your an image URL!
-## Screenshot of site 
-## Deployment
-
-Heroku: https://milestone-mern.herokuapp.com
-=======
 This is a blog based application where a user can manipulate their posts! (create, update, delete).
 
 
@@ -56,7 +43,6 @@ Heroku: https://milestone-mern.herokuapp.com
 ### Back-end Contributors
     Aaron Everette: https://github.com/Aeverette0120
     Giovanni Peres: https://github.com/Gioperes
->>>>>>> Stashed changes
 
 
 ## Preview
